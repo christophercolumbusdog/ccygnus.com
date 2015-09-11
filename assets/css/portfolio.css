@@ -12,12 +12,17 @@ a:visited{color:0xFFCCCC !important;}
 	display:block;
 }
 
+.nav
+{
+	/* padding-right: 100px; */
+}
+
 .clearfix
 {
 	clear:both;
 }
 
-.floatright 
+.floatright
 {
 	margin:5px;
 	float:right;
