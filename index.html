@@ -8,14 +8,83 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </head>
+
+<style>
+	.bg-1 {
+		background-color: #A8E3FF;
+		color: #4D4D4D;
+	}
+	.bg-2 {
+		background-color: #77D3FF;
+		color: #FFFFFF;
+	}
+	.bg-3 {
+		background-color: #0CB0FF;
+		color: #FFFFFF;
+	}
+	.bg-4 {
+		background-color: #005C89;
+		color: #FFFFFF;
+	}
+	.bg-5 {
+		background-color: #00476A;
+		color: #FFFFFF;
+	}
+	.container-fluid {
+		padding-left: 70px;
+		padding-right: 70px;
+
+	}
+</style>
+
+
+
 <body>
 
-<div class ="container">
-	<div class="jumbotron">
-		<h1>Christian Cygnus</h1>
-		<p>
-			Computer Science Major, University of Illinois Class of 2019
-		</p>
+<div class ="jumbotron bg-3 text-center">
+	<h1>Christian Cygnus</h1>
+	<p>
+		Computer Science Major, University of Illinois Class of 2019
+	</p>
+
+</div>
+
+<nav class="navbar navbar-default">
+		<div class="container">
+			<div class="navbar-header">
+      			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        			<span class="icon-bar"></span>
+        			<span class="icon-bar"></span>
+        			<span class="icon-bar"></span> 
+      			</button>
+      			<a class="navbar-brand" href="#">Me</a>
+    		</div>
+    		<div class="collapse navbar-collapse" id="myNavbar">
+      			<ul class="nav navbar-nav navbar-right">
+        			<li><a href="#">About</a></li>
+        			<li><a href="#">Projects</a></li>
+        			<li><a href="#">Resume</a></li>
+      			</ul>
+    		</div>
+		</div>
+</nav>
+
+<div class="text-center">
+	<div class="container">
+		<img src="profile.jpg" class="img-circle" width="200" height="200">
+	</div>
+</div>
+<br />
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-2">
+		</div>
+		<div class="col-md-8 bg-1">
+			<h2>Hello, <br /> <br />My name is Christian Cygnus, and I'm a currently studying Computer Science at the University of Illinois at Urbana Champaign. 
+			I am currently an Application Developer at Allstate, and have experience coding in Java, C++, and C#. </h2>
+		</div>
+		<div class="col-md-2">
+		</div>
 	</div>
 </div>
 
